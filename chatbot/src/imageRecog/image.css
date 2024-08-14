@@ -1,0 +1,37 @@
+.button{
+    background-color: white; 
+    color: black; 
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: all 1s;
+}
+.message-container1{
+    margin-left: 30px;
+    margin-bottom: 50px;
+    text-align: left;
+    padding: 10px;
+    max-height: 400px; 
+    overflow-y: auto;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.prompt1{
+    background-color: #2e2e2e;
+    display: inline;
+    font-size: medium;
+    color: #ededed;
+    padding: 8px;
+    padding-left: 20px;
+    border-radius: 30px;
+}
+.description{
+    margin-top: 10px;
+}
